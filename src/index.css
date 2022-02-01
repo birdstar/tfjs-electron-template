@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#main {
+  width: 640px;
+  position: relative;
+  margin: 20px auto;
+}
+
+.canvas-wrapper {
+  position: relative;
+}
+
+#cam-overlay,
+#cam-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 480px;
+}
+
+#cam-video {
+  transform: scaleX(-1);
+}
